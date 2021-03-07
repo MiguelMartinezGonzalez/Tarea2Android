@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/crear_nueva_cuenta_register"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/usuario_login"
+        android:layout_margin="20dp"
+        android:id="@+id/User_edit"
+        android:enabled="false"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/password_login"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/Password_edit"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/nombre_login"
+        android:layout_margin="20dp"
+        android:id="@+id/Nombre_edit"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/apellidos_login"
+        android:layout_margin="20dp"
+        android:id="@+id/Apellido_edit"
+        />
+
+    <Button
+        android:id="@+id/btn_registro_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:text="@string/btn_registrar_login"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_cancelar_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/purple_500"
+        android:text="@string/btn_cancelar_login"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+</LinearLayout>

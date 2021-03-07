@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tarea2v2</string>
+    <string name="usuario_login">Usuario</string>
+    <string name="password_login">Password</string>
+    <string name="nombre_login">Nombre</string>
+    <string name="apellidos_login">Apellidos</string>
+    <string name="btn_entrar_login">Entrar</string>
+    <string name="btn_registrar_login">Registrar</string>
+    <string name="btn_cancelar_login">Cancelar</string>
+    <string name="crear_nueva_cuenta_register">Crear Nueva Cuenta</string>
+    <string name="users_register">Usuarios Registrados</string>
+    <string name="editar_login">Editar</string>
+    <string name="eliminar_login">Eliminar</string>
+    <string name="mostrar_login">Mostrar</string>
+    <string name="cancelar_login">Cancelar</string>
+    <string name="saludo_login">Buenas Usuario</string>
+</resources>
